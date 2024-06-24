@@ -11,7 +11,7 @@ public class NewClass {
 		driver.manage().window().maximize();
 		driver.get("http://ingbtcpic5vw430.code1.emi.philips.com/gfn/PD2");
 		driver.navigate().refresh();
-		//driver.close();
+		driver.close();
 		
 
 	}
