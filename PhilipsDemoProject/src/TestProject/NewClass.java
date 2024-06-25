@@ -9,9 +9,9 @@ public class NewClass {
 		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://ingbtcpic5vw430.code1.emi.philips.com/gfn/PD2");
+		driver.get("http:www.google.com");
 		driver.navigate().refresh();
-		driver.close();
+		//driver.close();
 		
 
 	}
