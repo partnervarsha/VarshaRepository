@@ -1,6 +1,7 @@
 package TestProject;
 
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class NewClass {
@@ -11,7 +12,7 @@ public class NewClass {
 		driver.manage().window().maximize();
 		driver.get("http:www.google.com");
 		driver.navigate().refresh();
-		//driver.close();
+		driver.close();
 		
 
 	}
