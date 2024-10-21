@@ -49,5 +49,4 @@ public class NotepadApp {
 		Runtime.getRuntime().exec("taskkill /F /IM WinAppDriver.exe");
 	}
 
-
 }
