@@ -15,7 +15,7 @@ public class LoginSteps {
 	
 	WebDriver driver;
 	
-	@SuppressWarnings("deprecation")
+	@SuppressWarnings("deprecation") 
 	@Given("User navigates to the Website OrangeHrm")
 	public void user_navigates_website_OrangeHrm() {
 		

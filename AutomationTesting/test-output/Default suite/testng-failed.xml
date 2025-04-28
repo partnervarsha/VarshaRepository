@@ -3,16 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CalculatorAutomation.CalculatorTest">
+      <class name="CalculatorAutomation.ApplicationHealthCare">
         <methods>
-          <include name="setup"/>
-          <include name="Division"/>
-          <include name="Subtraction"/>
-          <include name="Addition"/>
-          <include name="Multiplication"/>
-          <include name="Combination"/>
+          <include name="setUp"/>
+          <include name="NotepadSave"/>
         </methods>
-      </class> <!-- CalculatorAutomation.CalculatorTest -->
+      </class> <!-- CalculatorAutomation.ApplicationHealthCare -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

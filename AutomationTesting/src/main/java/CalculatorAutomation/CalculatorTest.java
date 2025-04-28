@@ -33,3 +33,5 @@ public class CalculatorTest {
 	      
 	  }
 }
+
+// winAppdriver must should be on while runnning this programme
